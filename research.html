@@ -64,8 +64,9 @@
 					<div class="content">
 						<h2>Modelling lives of massive stars</h2>
 
-						<p>Stars tens to hundreds of times the mass of the sun can play a critical role in the evolution of galaxies and star clusters. Such massive stars modify the composition of their surroundings through energetic winds. Their remnants, neutron stars and black holes, are responsible for exotic phenomena such as supernovae and gamma-ray bursts. However, these stars are rare (only one star of 10 solar masses is born for every 1000 sun-like stars in the same volume of space) and have short lives (few Mega years for a 10 solar mass star compared to Giga years for a sun-like star).  </p>
-						<p>For my research, I am investigating how massive stars evolve. I simulate their evolution using 1-D stellar structure and evolution code <a href="http://mesa.sourceforge.net/">MESA</a>. I am also involved in <a href="http://galaxy.asu.cas.cz/pages/boost">BoOST</a> project which uses another stellar evolution code known as the Bonn Code. Using these codes, I am trying to find answers to the questions such as how much mass massive stars lose in the form of stellar winds, how mixing processes in the stellar interior affects their lives, what can we say about magnetic fields of these stars.
+						<p>Stars tens to hundreds of times the mass of the sun can play a critical role in the evolution of galaxies and star clusters. Such massive stars modify the composition of their surroundings through energetic winds. Their remnants, neutron stars and black holes, are responsible for exotic phenomena such as supernovae and gamma-ray bursts. However, these stars are rare (only one star of 10 solar masses is born for every 1000 sun-like stars in the same volume of space) and have short lives (a few million years for a 10 solar mass star compared to billions of years for a sun-like star).</p>
+						
+						<p>For my research, I am investigating how massive stars evolve. I simulate their evolution using the 1-D stellar structure and evolution code <a href="http://mesa.sourceforge.net/">MESA</a>. I am also involved in the <a href="http://galaxy.asu.cas.cz/pages/boost">BoOST</a> project, which uses another stellar evolution code known as the Bonn Code. Using these codes, I am trying to find answers to the questions such as: how much mass can massive stars lose in the form of stellar winds, how do mixing processes in the stellar interior affect their lives, what can we say about magnetic fields of these stars?
 						 <!-- </p> 
 						<p> -->
 
@@ -81,7 +82,7 @@
 						<div class="content">
 							<h2><b>MET</b>hod of <b>I</b>nterpolation for <b>S</b>ingle <b>S</b>tar <b>E</b>volution</h2>
 
-							<p>In the last few decades, our ability to resolve the cosmos has grown leaps and bounds. While it has helped us better understand the universe, it has also raised questions about what we already knew. For example, the discovery of multiples stellar populations in globular clusters or the detection of an intermediate-mass (150 solar masses) black hole through gravitational waves. Addressing such questions requires making use of our most up-to-date knowledge of stellar evolution in modelling interacting systems of stars. Therefore, I have developed a new tool, <b>METhod of Interpolation for Single Star Evolution or ‘METISSE’</b>, which uses the mathematical technique of interpolation to quickly calculate the lives of many stars. It makes use of the stellar models computed with 1-D codes like MESA to estimate the parameters of a star using those of neighbouring mass stars with similar properties. </p>
+							<p>In the last few decades, our ability to resolve the cosmos has grown by leaps and bounds. While this has helped us better understand the universe, it has also raised more questions. For example, the discovery of multiple stellar populations in globular clusters or the detection of an intermediate-mass (150 solar masses) black hole through gravitational waves. Addressing such questions requires making use of our most up-to-date knowledge of stellar evolution in modelling interacting systems of stars. Therefore, I have developed a new tool, <b>METhod of Interpolation for Single Star Evolution or ‘METISSE’</b>, which uses <a href="https://en.wikipedia.org/wiki/Interpolation">interpolation</a> to quickly calculate the lives of many stars. It makes use of the stellar models computed with 1-D codes like MESA to estimate the parameters of a star using those of neighbouring mass stars with similar properties. </p>
 
 
 							<p> The article describing METISSE and its capabilities has been published in the Monthy Notices of the Royal Astronomical Society and can be accessed on <a href= "https://arxiv.org/abs/2005.13177">arXiv</a>. The publication was also covered by a number of media aricles, including the <a href = "https://spaceaustralia.com/index.php/feature/astronomys-other-sense-gravitational-waves">beautifully written article</a> by Dan Lambeth for Space Australia as well as <a href ="https://phys.org/news/2020-09-metisse-insights-massive-stars.html">this release</a> from OzGrav.</p>
@@ -96,12 +97,12 @@
 					<section class="spotlight style5 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Modelling stellar interactions</h2>
-							<p> Sun and most other stars in the galaxy are far enough to interact with their neighbouring stars. However, stars which are born with a companion such as in a binary system can considerably influence each other's evolution. They can exchange mass with one another that alters the lives of both stars in the system. Stars in high-density regions of galaxies such as star clusters and galactic nuclei can further interact gravitationally. Such interaction can alter the dynamics of the system, leading to both formation and disruption of stellar multiples through many-body interactions.  </p>
+							<p> Our Sun and most other stars in the galaxies are too distant to interact with their neighbouring stars. However, stars which are born with a companion, such as in a binary system can considerably influence each other's evolution. They can exchange mass with one another thereby altering the lives of both stars in the system. Stars in high-density environments such as star clusters and galactic nuclei can further interact gravitationally. Such interaction can alter the dynamics of the system, leading to both formation and disruption of stellar multiples through many-body interactions.</p>
 
 
-							<p>To explain present-day observations of stellar populations, one needs to model large systems of stars while also accounting for different interactions between them. However, simulating stellar interactions for tens of thousands of stars requires a lot of computational resources. The design of METISSE and the use of interpolation in it gives it an edge as it can quickly calculate lives of stars and still make use of different sets of stellar models for predicting the properties of stellar populations. It is especially important for explaining the observations of stellar systems containing massive stars. An example is gravitational wave emission from the merger of binary systems of neutron stars and black holes, the end states of massive stars. Using METISSE, we can combine our knowledge of massive stars with codes that can simulate binary mergers, to predict the properties of gravitational waves. </p>
+							<p>To explain present-day observations of stellar populations, one needs to model large systems of stars while also accounting for different interactions between them. However, simulating stellar interactions for tens of thousands of stars requires a lot of computational resources. The design of METISSE and the use of interpolation in it gives it an edge, as it can quickly calculate stellar lives and  make use of different sets of stellar models to predict the properties of stellar populations. This is especially important for explaining the observations of stellar systems containing massive stars. An example is gravitational wave emission from the merger of binary systems of neutron stars and black holes, the end states of massive stars. Using METISSE, we can combine our knowledge of massive stars with codes that can simulate binary mergers, to predict the properties of gravitational waves. </p>
 
-							<p>I am working to integrate METISSE with binary stellar evolution code <a href= "http://astronomy.swin.edu.au/~jhurley/binary.html">BSE</a>  which allow us to use METISSE in the globular cluster modelling code <a href= "http://sverre.com/"> <i>N</i>BODY6</a>. I am a part of the team <a href= "https://compas.science/">COMPAS</a>, a rapid binary population synthesis code designed to study gravitational wave sources. In near future, we will be integrating METISSE with COMPAS to make predictions for gravitational wave events.</p>
+							<p>I am working to integrate METISSE with the binary stellar evolution code <a href= "http://astronomy.swin.edu.au/~jhurley/binary.html">BSE</a> which will allow us to use METISSE in the globular cluster modelling code <a href= "http://sverre.com/"> <i>N</i>BODY6</a>. I am also a part of the team <a href= "https://compas.science/">COMPAS</a>, a rapid binary population synthesis code designed to study gravitational wave sources. In the near future, I will be integrating METISSE with COMPAS to make predictions for gravitational wave events.</p>
 
 						</div>
 						<div class="image">
@@ -123,19 +124,21 @@
 						</div>
 					</section> -->
 
-					<section class="spotlight style4 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
+					<!-- <section class="spotlight style5 orient-center content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content"> -->
+						<section class="wrapper style2 align-left">
+					<div class="inner">
 							<h2>Selected publications</h2>
 							<p><a href="https://arxiv.org/abs/2005.13177">The fates of massive stars: exploring uncertainties in stellar evolution with METISSE</a>, P. Agrawal, J. Hurley, S. Stevenson, D. Szécsi, C. Flynn MNRAS,497,4549</p>
-							<p><a href="https://arxiv.org/abs/2004.08203">`Bonn' Optimized Stellar Tracks (BoOST).Simulated populations of massive and very massive stars as input for astrophysical applications</a>; D. Szécsi, R. Wünsch, P. Agrawal, N. Langer arXiv:2004.08203</p>
+							<p><a href="https://arxiv.org/abs/2004.08203">`Bonn' Optimized Stellar Tracks (BoOST). Simulated populations of massive and very massive stars as input for astrophysical applications</a>; D. Szécsi, R. Wünsch, P. Agrawal, N. Langer arXiv:2004.08203</p>
 							<p><a href="https://arxiv.org/abs/2007.03128">Neutron Star Extreme Matter Observatory: A kilohertz-band gravitational-wave detector in the global network</a>; Ackley et al. including P. Agrawal arXiv:2007.03128, accepted in PASA</p>
 							<ul class="actions stacked">
-								<li><a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-1135-984X&sort=date+desc" class="button">More</a></li>
+								<li><a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-1135-984X&sort=date+desc" class="button">Full publication list</a></li>
 							</ul>
 						</div>
-						<div class="image">
+						<!-- <div class="image">
 							<img src="images/spotlight03.jpg" alt="" />
-						</div>
+						</div> -->
 					</section>
     
 
