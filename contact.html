@@ -21,6 +21,7 @@
 								<li><a href="index.html">Home</a></li>
 <!-- 								<li><a href="personal.html">About me</a></li> -->
 								<li><a href="research.html">Research</a></li>
+								<li><a href="talks.html">Talks</a></li>
 								<li><a href="outreach.html">Sci-comm</li>
 								<li><a href="contact.html"><strong>Contact</strong></a></li>
 							</ul>
@@ -34,13 +35,7 @@
 					<section class="banner style2 orient-left content-align-left image-position-left fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<p class="major"> <b><i> "Every good idea starts with a conversation over a cup of coffee."  <br /> - Unknown</i></b>
-							<p> 
-							Feel free to ping me for a talk, discuss your ideas or simply chat about life over a cup of tea/coffee. 
-							<!-- 
-</p>
-							<p> 
- -->
-							I can be found at Wean Hall 8315, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, PA 15213.</p> 
+							<!-- <p> Feel free to ping me for a talk, discuss your ideas or simply chat about life. I can be found at pagrawal[at]astro[dot]swin[dot]edu[dot]au</p>  -->
 						<div>
 							<ul class="icons" >
 								<li><a href="mailto:pagrawal@astro.swin.edu.au" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
@@ -62,34 +57,82 @@
 						</div>
 					</section>
 				
-				
-				<!-- Seven -->
-					<!-- <section class="wrapper style1 align-center">
-						<div class="inner medium">
-							<h2>Get in touch</h2>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field half">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-								</div>
-								<ul class="actions special">
-									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+					<section class="wrapper style1 align-center">
 
-						</div>
-					</section> -->
+				<!-- Unordered List -->
+									<section>
+										<header>
+											<h3>Unordered List</h3>
+										</header>
+										<div class="content">
 
+											<h4>Default</h4>
+											<ul>
+												<li>Lorem ipsum dolor sit amet</li>
+												<li>Interdum adipiscing gravida odio</li>
+												<li>Porttitor sem non integer</li>
+												<li>Non faucibus ornare mi ut ante</li>
+												<li>Sagittis adipiscing eleifend</li>
+												<li>Felis amet dolore viverra</li>
+											</ul>
+
+											<h4>Alternate</h4>
+											<ul class="alt">
+												<li>Lorem ipsum dolor sit amet</li>
+												<li>Interdum adipiscing gravida odio</li>
+												<li>Porttitor sem non integer</li>
+												<li>Non faucibus ornare mi ut ante</li>
+												<li>Sagittis adipiscing eleifend</li>
+												<li>Felis amet dolore viverra</li>
+											</ul>
+
+										</div>
+									</section>
+
+								<!-- Ordered List -->
+									<section>
+										<header>
+											<h3>Ordered List</h3>
+										</header>
+										<div class="content">
+
+											<ol>
+												<li>Lorem ipsum dolor sit amet</li>
+												<li>Interdum adipiscing gravida odio</li>
+												<li>Porttitor sem non integer</li>
+												<li>Non faucibus ornare mi ut ante</li>
+												<li>Sagittis adipiscing eleifend</li>
+												<li>Felis amet dolore viverra</li>
+											</ol>
+
+										</div>
+									</section>
+
+								<!-- Definition List -->
+									<section>
+										<header>
+											<h3>Definition List</h3>
+										</header>
+										<div class="content">
+
+											<dl>
+												<dt>Interdum adipiscing odio</dt>
+												<dd>
+													<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent fringilla quis tincidunt felis sagittis eget tempus euismod. Ante ipsum primis vestibulum.</p>
+												</dd>
+												<dt>Non faucibus ornare mi ut ante</dt>
+												<dd>
+													<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent fringilla quis tincidunt felis sagittis eget tempus euismod. Ante ipsum primis vestibulum.</p>
+												</dd>
+												<dt>Felis amet dolore viverra</dt>
+												<dd>
+													<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent fringilla quis tincidunt felis sagittis eget tempus euismod. Ante ipsum primis vestibulum.</p>
+												</dd>
+											</dl>
+
+										</div>
+									</section>
+					</section>
 				<!-- Footer -->
 					<footer class="wrapper style1 align-center">
 						<div class="inner">
@@ -98,7 +141,16 @@
 								<li><a href="mailto:pagrawal@astro.swin.edu.au" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 								<li><a href="https://github.com/poojanagrawal" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
 							</ul> -->
-							<p>&copy Poojan Agrawal. Design: <a href="https://html5up.net">HTML5 UP</a>. Page last updated in April 2022. </p>
+							<p> &copy Poojan Agrawal. Design: <a href="https://html5up.net">HTML5 UP</a> </p> Page last updated on <p id="datetime">  </p>
+
+							<script>
+							  // Get current date and time
+							  var now = new Date();
+							  var datetime = now.toLocaleString();
+
+							  // Insert date and time into HTML
+							  document.getElementById("datetime").innerHTML = datetime;
+							</script>
 
 						</div>
 					</footer>
